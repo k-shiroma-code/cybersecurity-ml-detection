@@ -209,6 +209,13 @@ Expected input data format:
 | packet_count | integer | Number of packets |
 | attack_detected | integer | Target variable (0=normal, 1=attack) |
 
+## Network Protocols 
+| Protocol | Description | Examples |
+|--------|------|-------------|
+| TCP  | Connection-oriented network protocol that ensures data delivery, flow control, error detection/correction, and full duplex communication | HTTP/HTTPS, FTP, POP/SMTP/IMAP |
+| UDP  | Connectionless network protocol with a focus on speed rather than reliability, lightweight, and used for real-time communication, requires less overhead | VoIP, Streaming, Online Games, DNS |
+| ICMP | Error reporting and diagnostic network protocol focused on ensuring network connectivity among devices | Ping, Tracert |
+
 ## 🚀 Production Deployment
 
 ### Docker Deployment
