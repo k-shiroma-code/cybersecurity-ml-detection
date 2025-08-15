@@ -260,68 +260,9 @@ metrics = {
 }
 ```
 
-## 🔄 Model Retraining
 
-Schedule regular retraining:
 
-```bash
-# Weekly model evaluation
-python src/evaluate_drift.py --data data/new_week_data.csv
 
-# Monthly retraining
-python src/train_model.py --retrain --data data/monthly_data.csv
-```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
-### Development Setup
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Set up pre-commit hooks
-pre-commit install
-
-# Run code formatting
-black src/ tests/
-flake8 src/ tests/
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Dataset: [Cybersecurity Intrusion Dataset](link-to-dataset)
-- Inspiration: NIST Cybersecurity Framework
-- Community: Thanks to the cybersecurity ML research community
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/cybersecurity-ml-detection/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/cybersecurity-ml-detection/discussions)
-- **Documentation**: [Wiki](https://github.com/yourusername/cybersecurity-ml-detection/wiki)
-
-## 📊 Citation
-
-If you use this work in research, please cite:
-
-```bibtex
-@software{cybersecurity_ml_detection,
-  title={Cybersecurity Intrusion Detection with Machine Learning},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/cybersecurity-ml-detection}
-}
-```
-
----
 
 **⚡ Ready for production deployment with 88.6% accuracy and zero false alarms!**
